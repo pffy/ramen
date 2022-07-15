@@ -1,7 +1,17 @@
 // France msgs.fr_fr.gs
 msgs['fr_FR'] = {
 
-    // keyString1: 'valueString1',
-    // keyString2: 'valueString2',
-    // keyString3: 'valueString3'
+  // top-level menu (usually addon name)
+  theTopMenu: 'Allô Monde',
+
+  // strings
+  theFirstString: 'Salut',
+  theSecondString: 'Bonjour',
+
+  // sub menus
+  theFirstSubMenu: 'Bonjour',
+
+  // msg
+  theFirstMsg: 'Allô',
+  theSecondMsg: 'Coucou' 
 }
