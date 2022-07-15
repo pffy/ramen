@@ -1,4 +1,4 @@
-// Code.gs
+// addon.gs
 // git: https://github.com/pffy/ramen
 // license: https://unlicense.org/
 
