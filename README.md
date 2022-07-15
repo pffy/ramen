@@ -5,8 +5,8 @@ Google Apps Script locale template repo
 
 This repo:
 
-+ implements the locale found in the **File > Settings** preferences box.
-  + includes 72 locales as of this push 
++ implements the locales found in the **File > Settings** preferences box
+  + includes at total of 72 locales 
 + includes Google Apps Script addon snippet for locale-handling
   + uses `Spreadsheet.getSpreadsheetLocale()` method to return the locale code
   + document-centered locale, not user-centered locale
