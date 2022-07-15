@@ -1,6 +1,16 @@
 # ramen
 Google Apps Script locale template repo
 
+> **NOTE:** This is a simple template. More improvemnts in forked repos.
+
++ includes TSV data file
++ includes two sample locales: `en_US` and `fr_FR`
++ includes Google Apps Script addon snippet for locale-handling
++ uses locale code as keys for retrieving strings values in `msgs` object
++ uses `Spreadsheet.getSpreadsheetLocale()` method to return the locale code.
++ uses locale codes as listed in the table below:
+
+
 Locale | Code
 :--- | :---:
 Argentina | es_AR
@@ -67,7 +77,7 @@ Sweden | sv_SE
 Switzerland | de_CH
 Taiwan | zh_TW
 Thailand | th_TH
-Turkey | tr_TR
+Turkey (Turkiye) | tr_TR
 Ukraine | uk_UA
 United Kingdom | en_GB
 United Kingdom (Welsh) | cy_GB
