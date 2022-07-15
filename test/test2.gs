@@ -1,3 +1,5 @@
+/* test2.gs */
+
 // test: locale WITHOUT available key-value strings
 function test_getLocale_withoutKeyValueStrings() {
 
