@@ -14,6 +14,40 @@ This repo:
 + includes two sample locales with string values: `en_US` and `fr_FR`
 + includes the other 70 locales with no string values
 + uses locale code as keys for retrieving strings values in `msgs` object
+  + allows easy access to strings
+
+```javascript
+const str = msgs['fr_FR'].helloString;
+```
+
+OR
+
+```javascript
+const str = msgs['fr_FR']['helloString'];
+```
+
++ uses a local object that has the following structure:
+
+```bash
+└── msgs
+    ├── en_CA
+    │   ├── key-value1
+    │   └── key-value2
+    │   └── ...
+    ├── en_US
+    │   ├── key-value1
+    │   └── key-value2
+    │   └── ...
+    ├── fr_CA
+    │   ├── key-value1
+    │   └── key-value2
+    │   └── ...
+    └── fr_FR
+        ├── key-value1
+        └── key-value2
+        └── ...
+```
+
 + uses locale codes as listed in the table below:
 
 
