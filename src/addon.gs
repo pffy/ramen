@@ -6,7 +6,7 @@ function onOpen() {
 
   const ui = SpreadsheetApp.getUi();
   
-  const cc = getLocale();
+  var cc = getLocale();
   const default_locale = 'en_US';
 
   if(!msgs[cc]) {
