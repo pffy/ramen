@@ -6,8 +6,9 @@ Google Apps Script locale template repo
 + includes TSV data file
 + includes two sample locales: `en_US` and `fr_FR`
 + includes Google Apps Script addon snippet for locale-handling
+  + uses `Spreadsheet.getSpreadsheetLocale()` method to return the locale code
+  + document-centered locale, not user-centered locale
 + uses locale code as keys for retrieving strings values in `msgs` object
-+ uses `Spreadsheet.getSpreadsheetLocale()` method to return the locale code.
 + uses locale codes as listed in the table below:
 
 
