@@ -5,16 +5,16 @@ Google Apps Script locale template repo
 
 This repo:
 
++ extends Google Sheets with Google Apps Script
 + implements the locales found in the **File > Settings** preferences box
   + includes at total of 72 locales 
 + includes Google Apps Script addon snippet for locale-handling
-  + uses `Spreadsheet.getSpreadsheetLocale()` method to return the locale code
+  + uses `Spreadsheet.getSpreadsheetLocale()` method to detect the locale code
   + document-centered locale, not user-centered locale
 + includes TSV data file
 + includes two sample locales with string values: `en_US` and `fr_FR`
 + includes the other 70 locales with no string values
-+ uses locale code as keys for retrieving strings values in `msgs` object
-  + allows easy access to strings
++ uses locale code as keys for retrieving strings values in `msgs` map
 
 ```javascript
 const str = msgs['fr_FR'].helloString;
