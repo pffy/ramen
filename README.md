@@ -11,7 +11,7 @@ This repo:
 + includes Google Apps Script addon snippet for locale-handling
   + uses `Spreadsheet.getSpreadsheetLocale()` method to detect the locale code
   + document-centered locale, not user-centered locale
-+ includes TSV data file
++ includes [TSV data file][tsv]
 + includes two sample locales with string values: `en_US` and `fr_FR`
 + includes the other 70 locales with no string values
 + uses locale code as keys for retrieving strings values in `msgs` map
@@ -127,3 +127,4 @@ Venezuela | `es_VE`
 Vietnam | `vi_VN`
 
 
+[tsv]: https://github.com/pffy/ramen/blob/main/data/google-sheets-locales-list.tsv
