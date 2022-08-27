@@ -102,7 +102,7 @@ Netherlands | `nl_NL`
 Norway (Norwegian Bokmål) | `no_NO`
 Norway (Norwegian Nynorsk) | `nn_NO`
 Paraguay | `es_PY`
-Philippines | f`il_PH`
+Philippines | `fil_PH`
 Poland | `pl_PL`
 Portugal | `pt_PT`
 Romania | `ro_RO`
