@@ -2,7 +2,7 @@ es_AR
 hy_AM
 en_AU
 az_AZ
-es_BY
+be_BY
 es_BO
 pt_BR
 bg_BG
